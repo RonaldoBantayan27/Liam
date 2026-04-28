@@ -100,7 +100,6 @@ The threshold that will maximize profit is determined and used.
 **Sequential Feature Selection**     
 
 Feature selection reduces noise and improves the interpretation of feature importance.
-    
 Feature selection is about removing noise, improving interpretability, improving logistic regression stability, and slightly reducing overfitting.
 
 The model performance metrics and feature importances are output and compared with other models in a separate notebook.
