@@ -106,7 +106,7 @@ The model performance metrics and feature importances are output and compared wi
 
 Sample predictions using the model are demonstrated.  
 
-**False Negatives** analysis is made to improve future feature engineering and reduced them.
+**False Negatives** analysis is made to improve future feature engineering and reduce these False Negatives.
 
 **6.	Model Evaluation**
    
