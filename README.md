@@ -88,11 +88,11 @@ The model parameters are optimized using the appropriate grid search function.
 
 The profit/loss analysis compares the relative performance of the models financially. For demonstration purposes, the following values are used:
 
-L = value of fraud is $800
-C = cost of preventive action is $40
-True positives (TP) are correctly identified frauds (preventive action is spent but the value is saved).
-False positives (FP) are not fraudulent but predicted to be fraudulent (preventive action is spent but no value is saved).
-False negatives (FN) are predicted not to be fraudulent but actually fraudulent (no prevention action spent but value is lost).
+L = value of fraud is $800     
+C = cost of preventive action is $40     
+True positives (TP) are correctly identified frauds (preventive action is spent but the value is saved).     
+False positives (FP) are not fraudulent but predicted to be fraudulent (preventive action is spent but no value is saved).     
+False negatives (FN) are predicted not to be fraudulent but actually fraudulent (no prevention action spent but value is lost).     
 True negatives (TN) are correctly predicted not to be fraudulent (no prevention action spent and no value is lost).
 
 The threshold that will maximize profit is determined and used.
@@ -147,7 +147,17 @@ The **feature importance** is consistent with what is highlighted in the **Heatm
 You can view the full analysis here:
 
 [Exploratory Data Analysis]
-
+https://github.com/RonaldoBantayan27/Liam/blob/main/01_EDA_Credit_Card_Fraud.ipynb
+[XGB Classifier]
+https://github.com/RonaldoBantayan27/Liam/blob/main/02_XGB_Credit_Card_Fraud.ipynb
+[RandomForestClassifier]
+https://github.com/RonaldoBantayan27/Liam/blob/main/03_RF_Credit_Card_Fraud.ipynb
+[DecisionTreeClassifier]
+https://github.com/RonaldoBantayan27/Liam/blob/main/04_DT_Credit_Card_Fraud.ipynb
+[Keras Classifier]
+https://github.com/RonaldoBantayan27/Liam/blob/main/05_Keras_Credit_Card_Fraud.ipynb
+[Summary]
+https://github.com/RonaldoBantayan27/Liam/blob/main/06_Summary_Credit_Card_Fraud.ipynb
 
 **Reference:** 
 Ronaldo Bantayan (Author) Email: one01bant@yahoo.com     
