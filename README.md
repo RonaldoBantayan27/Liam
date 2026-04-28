@@ -49,21 +49,21 @@ Data is cleaned and data types assigned as required.
 
 Feature engineering included the following:
 
-1. user zip codes are regionalized to reduce cardinality
+1. User zip codes are regionalized to reduce cardinality
 
-2. time since last purchase is calculated using 'unix_time'
+2. Time since last purchase is calculated using 'unix_time'
 
-3. the amount of deviation from the average transactions is found
+3. The amount of deviation from the average transactions is found
 
-4. the distance of the user from the merchant is calculated
+4. The distance of the user from the merchant is calculated
 
-5. the transaction velocity in miles per hour is computed
+5. The transaction velocity in miles per hour is computed
 
-6. age is determined from the 'dob'
+6. Age is determined from the 'dob'
 
-7. hour is expressed in terms of the sine and cosine functions
+7. Hour is expressed in terms of the sine and cosine functions
 
-8. the frequency of merchant transactions is determined
+8. The frequency of merchant transactions is determined
 
 9. 'missing_merch_zip' feature is created from the 'merch_zipcode' missing values
 
