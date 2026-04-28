@@ -97,7 +97,7 @@ True negatives (TN) are correctly predicted not to be fraudulent (no prevention 
 
 The threshold that will maximize profit is determined and used.
 
-**Sequential Feature Selection**     
+**Feature Selection**     
 
 Feature selection reduces noise and improves the interpretation of feature importance.
 Feature selection is about removing noise, improving interpretability, improving logistic regression stability, and slightly reducing overfitting.
